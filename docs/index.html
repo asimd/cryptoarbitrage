@@ -161,7 +161,7 @@
 <script id="high-template" type="text/x-handlebars-template">
     <li class="coin-info-high " data-coin="{{coin}}" data-market1="{{market1}}" data-market2="{{market2}}">
         <h3 style="color: black; text-align: left;">Initial Transaction</h3>
-        <h1>Buy <strong>{{coin}}</strong> on <strong>{{market1}}</strong>. Sell <strong>{{coin}} </strong> on <strong> {{market2}}</strong> for a
+        <h1>Buy <strong>{{coin}}</strong> on <strong><a href="https://www.{{market1}}.com" target="_blank">{{market1}}</a></strong>. Sell <strong>{{coin}} </strong> on <strong><a href="https://www.{{market2}}.com" target="_blank">{{market2}} </a></strong> for a
             profit of
             <strong> {{diff}}%</strong></h1>
         <div class="coin">
@@ -179,7 +179,7 @@
     </li>
     <li class="coin-info-low" data-coin="{{pair.coin}}" data-market1="{{pair.market1}}" data-market2="{{pair-market2}}">
         <h3 style="color: black; text-align: left;">Reverse Transaction</h3>
-        <h1>On <strong>{{pair.market1}}</strong>, buy <strong>{{pair.coin}}</strong> and transfer back to <strong> {{pair.market2}} </strong>with 
+        <h1>On <strong><a href="https://www.{{pair.market1}}.com" target="_blank">{{pair.market1}}</a></strong>, buy <strong>{{pair.coin}}</strong> and transfer back to <strong><a href="https://www.{{pair.market2}}.com" target="_blank">{{pair.market2}} </a></strong>with 
            <strong> {{pair.diff}}% </strong>profit
         </h1>
         <div class="coin">
@@ -203,7 +203,7 @@
     <div class="coin-info">
         <div class="coin-info-high">
         <h3 style="color: black; text-align: left;">Initial Transaction</h3>
-        <h1>Buy <strong>{{coin}}</strong> on <strong>{{market1}}</strong>. Sell <strong>{{coin}} </strong> on <strong> {{market2}}</strong> for a
+        <h1>Buy <strong>{{coin}}</strong> on <strong><a href="https://www.{{market1}}.com" target="_blank">{{market1}}</a></strong>. Sell <strong>{{coin}} </strong> on <strong> <a href="https://www.{{market2}}.com" target="_blank">{{market2}}</a></strong> for a
             profit of
             <strong> {{diff}}%</strong></h1>
 
@@ -218,7 +218,7 @@
         </div>
         <div class="coin-info-low">
                    <h3 style="color: black; text-align: left;">Reverse Transaction</h3>
-                   <h1>On <strong>{{pair.market1}}</strong>, buy <strong>{{pair.coin}}</strong> and transfer back to <strong> {{pair.market2}} </strong>with 
+                   <h1>On <strong><a href="https://www.{{pair.market1}}.com" target="_blank">{{pair.market1}} </a></strong>, buy <strong>{{pair.coin}}</strong> and transfer back to <strong><a href="https://www.{{pair.market2}}.com" target="_blank">{{pair.market2}}</a> </strong>with 
                         <strong> {{pair.diff}}%</strong>profit
                     </h1>
             <div class="coin">
