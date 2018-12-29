@@ -24,7 +24,10 @@ Required: Node.js **^ V8.0.0** this program uses ES7 features such as async/awai
 
 In a terminal write the following:
 
-CD into the correct folder.
+
+```shell
+git clone git@github.com:asimd/cryptoarbitrage.git
+```
 
 ```shell
 cd arbitrage

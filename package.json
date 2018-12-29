@@ -22,16 +22,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manu354/crypto-arbitrage.git"
+    "url": "git+https://github.com/asimd/cryptoarbitrage.git"
   },
   "keywords": [
     "bittrex",
-    "arbitrage"
-  ],
-  "author": "Manu Masson",
-  "license": "GNU",
-  "bugs": {
-    "url": "https://github.com/manu354/crypto-arbitrage/issues"
-  },
-  "homepage": "manu354.github.io/cryptocurrency-arbitrage"
+    "arbitrage",
+    "cex",
+    "poloniex",
+    "binance",
+    "crypto",
+    "crypto-arbitrage",
+    "cryptocurrency-arbitrage"
+  ]
 }
