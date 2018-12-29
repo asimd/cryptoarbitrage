@@ -32,7 +32,7 @@ git clone git@github.com:asimd/cryptoarbitrage.git
 Go into the newly created folder.
 
 ```shell
-cd arbitrage
+cd cryptoarbitrage
 ```
 
 Install the required npm modules
